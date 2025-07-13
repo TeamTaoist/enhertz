@@ -9,7 +9,8 @@
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "tauri": "tauri",
-    "prepare": "husky"
+    "prepare": "husky",
+    "release": "scripts/release.sh"
   },
   "lint-staged": {
     "*.{js,ts,vue,html,css,md}": "prettier --write"
